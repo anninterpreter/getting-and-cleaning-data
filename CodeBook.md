@@ -172,4 +172,4 @@ From all these features few measuements were taken into account for further summ
 "fBodyBodyGyroJerkMag-meanFreq()"
 
 The tiday dataset contains average of all the above features for each activity and each 
-group. 
+group, where actitivy variable is of type character, and subject is of type integer, rest of the measurements are of type numeric.
