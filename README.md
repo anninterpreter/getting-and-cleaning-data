@@ -1,4 +1,5 @@
 # Getting and Cleaning Data (Johns Hopkins University, Coursera)  
+## NOTE: You must extract the zip folder 'UCI HAR Dataset' first in order to move on with the project
 **run_analysis.R** file contains all the logic to get and clean data in order to perform analysis.
   
 ## There are 4 functions in run_analysis.R file  
