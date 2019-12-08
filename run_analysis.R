@@ -74,4 +74,5 @@ average_activity_subject <- function(directory = "UCI HAR Dataset"){
 }
 
 
-
+summary <- average_activity_subject()
+write.csv(summary, './tidy_dataset.csv', row.names=FALSE)

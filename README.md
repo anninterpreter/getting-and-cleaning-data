@@ -1,6 +1,6 @@
 # Getting and Cleaning Data (Johns Hopkins University, Coursera)  
-## NOTE: You must extract the zip folder 'UCI HAR Dataset' first in order to move on with the project
-**run_analysis.R** file contains all the logic to get and clean data in order to perform analysis.
+## NOTE: You must download and extract the dataset from [UCI HAR Dataset repo](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) containig data and its descirption before you move to the assignment part.
+**run_analysis.R** file contains all the logic to get and clean data in order to perform analysis. Execute the script to obtain tidy data set, which will be similar to the dataset stored in _tidy_dataset.csv_ file.
   
 ## There are 4 functions in run_analysis.R file  
 **1- merge_train_test_dataset**  
@@ -19,4 +19,5 @@ The function apply transformation to _activity_ variable by transforming activit
 The function is resposible for extracting only the measurements on the mean and standard deviation for each measurement from the dataframe returned by above function.  
 
 **4- average_activity_subject**  
-The function takes in the dataframe returned by above function and then calculate the average of each variable for each activity and each subject.
+The function takes in the dataframe returned by above function and then calculates the average of each variable for each activity and each subject and returns the summary in a dataframe. 
+
